@@ -20,3 +20,32 @@
 .App-link {
   color: #09d3ac;
 }
+
+.container {
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+table,
+th,
+td {
+  /* border-bottom: 10px dotted rgb(201, 187, 187); */
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
